@@ -1,0 +1,58 @@
+/* Typography */
+@font-face {
+	font-family: "Pixeloid";
+	src:
+		url("fonts/Pixeloid.ttf") format("truetype");
+  }
+
+html {
+	font-family: 'Pixeloid', sans-serif;
+}
+
+/* Custom Styles */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0D0E0D;
+	min-height: 100vh;
+}
+
+main {
+	padding: 50px;
+	text-align: center;
+	color: white;
+	background-color: #1D1E1D;
+	border-radius: 25px;
+}
+
+img {
+	width: 15rem;
+	margin-bottom: 25px;
+	border: 8px solid rgba(0, 244, 255, 0.2);
+	border-radius: 100%
+}
+
+.title {
+	font-size: 3.75em;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.social-links i {
+	padding: 20px;
+	color: white;
+	font-size: 2.5rem;
+}
+
+.social-links i:hover {
+	color: rgb(0, 244, 255);
+}
+
+.social-links a {
+	text-decoration: none;
+}
