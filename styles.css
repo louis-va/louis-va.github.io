@@ -17,6 +17,7 @@ body {
 	align-items: center;
 	background-color: #0D0E0D;
 	min-height: 100vh;
+	margin: 0;
 }
 
 main {
